@@ -1,0 +1,74 @@
+[debug] [2019-07-26T16:33:09.920Z] ----------------------------------------------------------------------
+[debug] [2019-07-26T16:33:09.924Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-07-26T16:33:09.924Z] CLI Version:   7.2.1
+[debug] [2019-07-26T16:33:09.924Z] Platform:      win32
+[debug] [2019-07-26T16:33:09.924Z] Node Version:  v8.11.3
+[debug] [2019-07-26T16:33:09.924Z] Time:          Fri Jul 26 2019 12:33:09 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-07-26T16:33:09.924Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-26T16:33:09.944Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-26T16:33:09.944Z] > authorizing via signed-in user
+[debug] [2019-07-26T16:33:09.944Z] [iam] checking project chat-here-9ec1d for permissions ["firebase.projects.get"]
+[debug] [2019-07-26T16:33:09.948Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-here-9ec1d:testIamPermissions  
+
+[debug] [2019-07-26T16:33:10.415Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-26T16:33:10.419Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-here-9ec1d  
+ 
+[debug] [2019-07-26T16:33:10.795Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\patel\workspace\friendlychat-web\web-start'...
+[info] 
+[debug] [2019-07-26T16:33:10.807Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-here-9ec1d/webApps/-/config  
+ 
+[info] +  functions: Using node@8 from host.
+[debug] [2019-07-26T16:33:10.835Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-here-9ec1d/adminSdkConfig  
+ 
+[debug] [2019-07-26T16:33:11.074Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-26T16:33:11.142Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\patel\workspace\friendlychat-web\web-start\functions" for Cloud Functions...
+[debug] [2019-07-26T16:33:12.668Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\patel\\workspace\\friendlychat-web\\web-start\\functions","node_version":"8.11.3"}
+[debug] [2019-07-26T16:33:12.672Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2019-08-07T21:28:05.572Z] ----------------------------------------------------------------------
+[debug] [2019-08-07T21:28:05.580Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\patel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-08-07T21:28:05.580Z] CLI Version:   7.2.1
+[debug] [2019-08-07T21:28:05.580Z] Platform:      win32
+[debug] [2019-08-07T21:28:05.580Z] Node Version:  v8.11.3
+[debug] [2019-08-07T21:28:05.580Z] Time:          Wed Aug 07 2019 17:28:05 GMT-0400 (Eastern Daylight Time)
+[debug] [2019-08-07T21:28:05.584Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-07T21:28:05.616Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-07T21:28:05.616Z] > authorizing via signed-in user
+[debug] [2019-08-07T21:28:05.616Z] [iam] checking project chat-here-9ec1d for permissions ["firebase.projects.get"]
+[debug] [2019-08-07T21:28:05.620Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-07T21:28:05.620Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-07T21:28:05.959Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-07T21:28:05.971Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chat-here-9ec1d:testIamPermissions  
+
+[debug] [2019-08-07T21:28:06.371Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-07T21:28:06.375Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-here-9ec1d  
+ 
+[debug] [2019-08-07T21:28:06.694Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\patel\workspace\ChatHere'...
+[info] 
+[debug] [2019-08-07T21:28:06.706Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-here-9ec1d/webApps/-/config  
+ 
+[info] +  functions: Using node@8 from host.
+[debug] [2019-08-07T21:28:06.734Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/chat-here-9ec1d/adminSdkConfig  
+ 
+[debug] [2019-08-07T21:28:06.998Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-07T21:28:07.058Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./public
+[info] +  hosting: Local server: http://localhost:5000
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\patel\workspace\ChatHere\functions" for Cloud Functions...
+[debug] [2019-08-07T21:28:08.815Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\patel\\workspace\\ChatHere\\functions","node_version":"8.11.3"}
+[debug] [2019-08-07T21:28:08.815Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"protect_env":true,"admin_stubs":true} {}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
